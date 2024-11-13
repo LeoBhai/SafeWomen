@@ -62,8 +62,8 @@ export default function LocationTrackerPage() {
     const newMap = new mapboxgl.Map({
       container: mapContainer.current,
       style: 'mapbox://styles/mapbox/streets-v11',
-      center: [-74.006, 40.7128],
-      zoom: 12,
+      center: [77.2090, 28.6139], // Delhi, India coordinates
+      zoom: 11,
     })
 
     setMap(newMap)
